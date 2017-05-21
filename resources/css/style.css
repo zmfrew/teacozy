@@ -1,0 +1,36 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+.mission {
+  padding-top: 69px;
+}
